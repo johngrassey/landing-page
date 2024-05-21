@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
 body {
     font-family: Roboto, sans-serif;
     padding: 0px;
@@ -28,14 +30,16 @@ h1 {
 
 h2 {
     font-size: 32px;
+    color: #1F2937;
     margin: 0px;
     font-weight: 900;
+    text-align: center;
 }
 
 button {
     background-color: #3882F6;
     color: #F9FAF8;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 18px;
     border-radius: 8px;
     padding: 8px 32px;
@@ -76,13 +80,28 @@ button {
     height: 175px;
     border: 4px solid #3882F6;
     border-radius: 16px;
+    box-sizing: border-box;
 }
 
 .tile-block {
     display: flex;
     padding: 50px 0px;
+    gap: 50px;
+    justify-content: center;
+}
+
+.tile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 175px;
 }
 
 .middle {
     padding: 50px;
+}
+
+.caption {
+    color: #1F2937;
+    text-align: center;
 }
