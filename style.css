@@ -1,5 +1,7 @@
 body {
     font-family: Roboto, sans-serif;
+    padding: 0px;
+    margin: 0px;
 }
 
 ul {
@@ -10,16 +12,28 @@ ul {
     padding: 0px;
 }
 
-a {
+a, p {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
+    margin: 8px 0px 16px 0px;
 }
 
 h1 {
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
+    margin: 0px;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 8px;
+    padding: 8px 32px;
+    border: none;
 }
 
 .top {
@@ -30,7 +44,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1200px;
+    max-width: 1000px;
     padding: 16px 8px;
     margin: auto;
 }
@@ -42,9 +56,10 @@ h1 {
 }
 
 .hero {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: auto;
     display: flex;
+    align-items: center;
     gap: 50px;
     padding: 100px 0px;
 }
