@@ -21,9 +21,15 @@ a, p {
 
 h1 {
     font-size: 48px;
-    font-weight: 800;
+    font-weight: 900;
     color: #F9FAF8;
     margin: 0px;
+}
+
+h2 {
+    font-size: 32px;
+    margin: 0px;
+    font-weight: 900;
 }
 
 button {
@@ -35,6 +41,7 @@ button {
     padding: 8px 32px;
     border: none;
 }
+
 
 .top {
     background-color: #1F2937;
@@ -62,4 +69,20 @@ button {
     align-items: center;
     gap: 50px;
     padding: 100px 0px;
+}
+
+.image {
+    width: 175px;
+    height: 175px;
+    border: 4px solid #3882F6;
+    border-radius: 16px;
+}
+
+.tile-block {
+    display: flex;
+    padding: 50px 0px;
+}
+
+.middle {
+    padding: 50px;
 }
