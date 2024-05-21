@@ -16,6 +16,12 @@ a {
     color: #E5E7EB;
 }
 
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
 .top {
     background-color: #1F2937;
 }
@@ -24,11 +30,21 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 1200px;
     padding: 16px 8px;
+    margin: auto;
 }
 
 .logo {
     font-size: 24px;
-    font-weight: bold;
+    font-weight: 700;
     color: #F9FAF8
+}
+
+.hero {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    gap: 50px;
+    padding: 100px 0px;
 }
