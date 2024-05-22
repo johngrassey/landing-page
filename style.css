@@ -19,6 +19,7 @@ a, p {
     font-size: 18px;
     color: #E5E7EB;
     margin: 8px 0px 16px 0px;
+    font-weight: 300;
 }
 
 h1 {
@@ -34,6 +35,13 @@ h2 {
     margin: 0px;
     font-weight: 900;
     text-align: center;
+}
+
+h3 {
+    color: #F9FAF8;
+    margin: 0px;
+    font-size: 24px;
+    font-weight: 500;
 }
 
 button {
@@ -131,4 +139,30 @@ button {
     width: 800px;
     text-align: right;
     padding-right: 32px;
+}
+
+.calltoaction {
+    padding: 100px 0px;
+}
+
+.cta-block {
+    background-color: #3882F6;
+    max-width: 1000px;
+    padding: 40px 110px;
+    border-radius: 12px;
+    box-sizing: border-box;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-text {
+    color: #E5E7EB;
+}
+
+.cta-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
 }
